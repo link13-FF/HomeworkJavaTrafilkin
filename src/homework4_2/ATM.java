@@ -32,8 +32,13 @@ public class ATM {
         int all = banknote20 * 20 + banknote50 * 50 + banknote100 * 100;
         if (sumWithdraw % 10 != 0) {
             System.out.println("Требуется снять " + sumWithdraw + " некорректная сумма");
-            return false;//шменьги в atm
+            return false;
         }
+
+        if (sumWithdraw / 30 != 10) { System.out.println("Требуется снять " + sumWithdraw + " некорректная сумма(20)");
+            return false;
+        }
+
         if (all < sumWithdraw) {
             System.out.println("Недостаточно купюр в банкомате");
             return false;

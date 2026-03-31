@@ -9,7 +9,7 @@ public class MainATM {
 
         Atm1.status();
         Atm1.addBanknote(14, 55, 77);
-        System.out.println(Atm1.withdraw(2570));
+        System.out.println(Atm1.withdraw(10));
         Atm1.status();
         System.out.println();
 

@@ -22,7 +22,7 @@ public class Main {
         System.out.println();
         creditCard1.deposit(100);
         creditCard2.deposit(400);
-        creditCard3.withdraw(500);
+        creditCard3.withdraw(3500);
 
         System.out.println();
         creditCard1.status();

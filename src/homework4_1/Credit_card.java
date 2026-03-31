@@ -24,8 +24,14 @@ public class Credit_card {
     }
 
     public void withdraw(int a) {
-        balance -= a;
-        System.out.println("Снято: " + a + " с " + cardName);
+        if (a > balance) {
+            System.out.println("Сумма снятия: " + a + " Больше суммы на счёте! " + "Сумма счёта: " + balance);
+            System.out.println("Отказ в операции.");
+        }
+        else {
+            balance -= a;
+            System.out.println("Снято: " + a + " с " + cardName);
+        }
     }
 
     public void status() {
