@@ -4,14 +4,13 @@ public class Homework1_6 {
 
     public static void main(String[] args) {
 
-        int a = 1;
-        int b = 2;
+        int a = 9;
+        int b = 5;
+        int x = b;
 
-        a = b/a;
-        b = a/a;
-
+        b = a;
+        a = x;
         System.out.println(a);
         System.out.println(b);
-
     }
 }

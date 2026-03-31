@@ -7,6 +7,5 @@ public class Homework1_4 {
         double n = 17.33;
 
         System.out.println ("n = " + Math.round(n));
-
     }
 }

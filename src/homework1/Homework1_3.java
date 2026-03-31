@@ -10,6 +10,5 @@ public class Homework1_3 {
         int c = n%10;
 
         System.out.println (a+b+c);
-
     }
 }
