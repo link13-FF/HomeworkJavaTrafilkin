@@ -25,5 +25,6 @@ public class Terapevt extends Doctor {
             assing = new Terapevt();
             System.out.println("Назначен терапевт");
         }
+        assing.heal();
     }
 }
