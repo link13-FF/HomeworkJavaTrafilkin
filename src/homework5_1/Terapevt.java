@@ -4,7 +4,7 @@ public class Terapevt extends Doctor {
 
     @Override
     public void heal() {
-        System.out.println("Терапевт лечит");
+        System.out.println("Терапевт лечение");
     }
 
     public void assing (Client client) {
