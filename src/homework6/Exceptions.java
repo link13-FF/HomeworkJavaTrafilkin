@@ -12,7 +12,7 @@ import java.lang.reflect.Method;
 Продемонстрировать обработку исключительных ситуаций на примерах
  */
 public class Exceptions {
-    public void Method_1() {
+    public void method1() {
         try {
             int a = 10;
             int b = 0;
@@ -27,7 +27,7 @@ public class Exceptions {
         System.out.println();
     }
 
-    public void Method_2() {
+    public void method2() {
         try {
             int[] array = {1, 2, 3, 4};
             array[5] = 1;
@@ -45,7 +45,7 @@ public class Exceptions {
         System.out.println();
     }
 
-    public void Method_3() {
+    public void method3() {
         try {
             int[] num = {1, 2, 3};
             int a = 10 / 0;
@@ -58,7 +58,7 @@ public class Exceptions {
         System.out.println();
     }
 
-    public void Method_4() {
+    public void method4() {
         try {
             int[] num = {1, 2, 3};
             System.out.println(num[10]);
@@ -72,9 +72,9 @@ public class Exceptions {
 
     public static void main(String[] args) {
         Exceptions demo = new Exceptions();
-        demo.Method_1();
-        demo.Method_2();
-        demo.Method_3();
-        demo.Method_4();
+        demo.method1();
+        demo.method2();
+        demo.method3();
+        demo.method4();
     }
 }
